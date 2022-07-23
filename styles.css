@@ -1,0 +1,16 @@
+div{
+    &::before{
+        opacity: 0.5
+    }
+}
+h1{
+    font-family: 'Amatic SC', cursive;
+    font: 700;
+    font-size: 64px;
+    text-align: center;
+}
+h2{
+    font-family: 'Amatic SC', cursive;
+    font: 400;
+    text-decoration: underline;
+}
