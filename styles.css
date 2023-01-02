@@ -8,9 +8,37 @@ h1{
     font: 700;
     font-size: 64px;
     text-align: center;
+    text-decoration: underline;
 }
-h2{
+.title{
     font-family: 'Amatic SC', cursive;
     font: 400;
+    font-size: 30px;
     text-decoration: underline;
+    align-items: center;
+}
+body{
+    font-weight: bold;
+}
+
+.list{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.recipe{
+    width: 50%;
+}
+.item{
+    max-height: 200px;
+}
+.thumbnail{
+    height: 200px;
 }
